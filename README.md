@@ -11,4 +11,37 @@ Other than these, I tried keeping it similar to Java's.
 
 ## Documentation
 
-To be added...
+### Constructors
+
+#### Stream()
+
+An empty constructor.
+
+#### Stream(const std::vector<T> &vector)
+
+Initializes the stream with the given vector.
+
+#### bool allMatch(bool (*predicate)(T))
+
+Checks if all elements match the predicate.
+
+*predicate* - The predicate to test all the elements
+
+**return** -  returns whether all elements match the predicate
+
+#### bool anyMatch(bool (*predicate)(T))
+
+Checks if any element matches the predicate.
+
+*predicate* - The predicate to test all the elements
+
+**return** -  returns whether any element matches the predicate
+
+#### long count()
+
+Returns how many elements the stream contains
+
+**return** - Number of elements in the stream
+
+
+
