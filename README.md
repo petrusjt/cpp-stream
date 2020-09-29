@@ -17,7 +17,7 @@ Other than these, I tried keeping it similar to Java's.
 
 An empty constructor.
 
-#### Stream(const std::vector<T> &vector)
+#### Stream(const std::vector&lt; T &gt; &vector)
 
 Initializes the stream with the given vector.
 
@@ -43,14 +43,14 @@ Returns how many elements the stream contains
 
 **return** - Number of elements in the stream
 
-#### Stream<T> distinct()
+#### Stream&lt; T &gt; distinct()
 
 Returns a new `Stream` object containing only the distinct elements of the originals.  
 That means no duplicate values in the streams.
 
 **return** - The new `Stream` object with distinct values
 
-#### Stream<T> filter(bool (*predicate)(T))
+#### Stream&lt; T &gt; filter(bool (*predicate)(T))
 
 Returns a new `Stream` object containing only the elements matching the predicate
 
@@ -96,25 +96,25 @@ Checks if no element matches the predicate.
 
 **return** -  Whether no element matches the predicate
 
-#### static Stream<T> of(std::vector<T> v)
+#### static Stream&lt; T &gt; of(std::vector&lt; T &gt; v)
 
 Constructs a stream of the given vector.
 
 **return** - The scream constructed of the given vector
 
-#### Stream<T> sorted()
+#### Stream&lt; T &gt; sorted()
 
 Sorts the elements of the stream using the `<` operator.
 
 **return** - The new `Stream` object with sorted elements
 
-#### Stream<T> sorted(bool (*comparator)(T, T))
+#### Stream&lt; T &gt; sorted(bool (*comparator)(T, T))
 
 Sorts the elements of the stream using the comparator.
 
 **return** - The new `Stream` object with sorted elements
 
-#### std::vector<T> toVector()
+#### std::vector&lt; T &gt; toVector()
 
 Converts the stream to `std::vector`.
 
