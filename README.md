@@ -15,7 +15,7 @@ Behaves exactly the same as stream.hpp but uses `std::function` objects as param
 
 ## Documentation
 
-<a href="#streamhpp">stream.hpp</a>
+<a href="#streamhpp">stream.hpp</a>  
 <a href="#streamstdfunctionhpp">stream_stdfunction.hpp</a>
 
 <a name="streamhpp">
@@ -131,7 +131,7 @@ Converts the stream to `std::vector`.
 
 **return** - The `std::vector` with all the elements of the stream
 
-<a name="stream_stdfunctionhpp">
+<a name="streamstdfunctionhpp">
 
 ### Constructors
 
