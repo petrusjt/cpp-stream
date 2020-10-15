@@ -196,10 +196,6 @@ Maps all elements using *mapper*
 
 **return** - The new `Stream` object with the mapped values
 
-##### NOTE
-
-It doesn't work with lambda functions as of now. However, if you pass a named function to it, it works.
-
 #### T max()
 
 Returns the maximum element of the stream
